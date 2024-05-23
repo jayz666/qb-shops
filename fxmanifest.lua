@@ -14,12 +14,14 @@ shared_scripts {
     '@qb-core/shared/locale.lua',
     'locale/en.lua',
     'locale/*.lua',
-    'config.lua'
+    'config.lua',
+    'price_manager.lua'
 }
 
 client_scripts {
     'client/main.lua',
     'client/deliveries.lua',
+    
 }
 
 server_script 'server/main.lua'
